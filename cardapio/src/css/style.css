@@ -62,7 +62,7 @@ body{
     background-image:url('../imagem/porcoes.png');
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fff;
+    color:transparent 50% #fff;
 }
 #b3 {
     background-image:url('../imagem/cardapio.jpg');
