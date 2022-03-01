@@ -1,5 +1,12 @@
-// References to DOM Elements
+// References to DOM Element
 
+var tela = window.screen.width;
+console.log(tela)
+if(tela<1024 ){
+    alert("Site ainda não responsivo,por favor navegue por desktop/computador!")
+    location.reload();
+    
+}
 const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
 const book = document.querySelector("#book");
